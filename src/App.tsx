@@ -10,6 +10,12 @@ import { ExamplesScreens } from "./screens/ExamplesScreen";
 import { HomeScreen } from "./screens/HomeScreen";
 import { TokenListNavigator } from "./screens/TokenNavigator";
 
+import solanaWeb3 from "@solana/web3.js";
+import splStakePool from "@solana/spl-stake-pool";
+import unstakeit from "@unstake-it/sol";
+import marinade from "@marinade.finance/marinade-ts-sdk";
+import metaplex from "@metaplex/js";
+
 const Tab = createBottomTabNavigator();
 
 function TabNavigator() {
